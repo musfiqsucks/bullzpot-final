@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Assistant font link */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&display=swap");
+
+/* Sora font link */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Assistant", sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+.font-primary {
+  font-family: "Assistant", sans-serif;
+}
+
+.font-secondary {
+  font-family: "Sora", sans-serif;
+}
+.color-primary {
+  color: #252160;
+}
+.color-secondary {
+  color: #f1a244;
+}
+.color-white {
+  color: white;
+}
+.bg-orange {
+  background-color: #f1a244;
+}
+.bg-primary {
+  background-color: #f9f9fd;
+}
