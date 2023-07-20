@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <h1> this is footer page</h1>
+      <h1 className="text-center text-lg my-3">Footer will be added soon...</h1>
     </div>
   );
 };

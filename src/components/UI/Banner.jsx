@@ -1,4 +1,3 @@
-// import BannerImage from "../../assets/illustrations.webp";
 import MainButton from "../MainButton";
 import PropTypes from "prop-types";
 const Banner = ({ title, paragraph, images, buttonState }) => {
@@ -9,12 +8,9 @@ const Banner = ({ title, paragraph, images, buttonState }) => {
           <div className="w-full md:w-1/2">
             <div className="text-center mt-8 md:mt-0 md:text-left">
               <h1 className="text-3xl md:text-[50px] font-bold color-primary leading-10 md:leading-[60px]">
-                {/* Your Shopify Store Customized <br /> Your Way */}
                 {title}
               </h1>
               <p className="font-medium text-2xl leading-[36px] mt-5 color-primary">
-                {/* Sell more with the help of in-house Shopify Experts, Partners,
-                and Developers */}
                 {paragraph}
               </p>
               {buttonState === true && (
