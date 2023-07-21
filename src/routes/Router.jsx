@@ -4,6 +4,7 @@ import About from "../pages/About";
 import Reviews from "../pages/Reviews";
 import Pricing from "../pages/Pricing";
 import App from "../App";
+import NotFound from "../pages/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         element: <Pricing></Pricing>,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFound></NotFound>,
   },
 ]);
 
