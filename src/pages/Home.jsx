@@ -2,6 +2,7 @@ import Banner from "../components/UI/Banner";
 import BannerImage from "../assets/illustrations.webp";
 import Wave from "../components/Wave";
 import CustomizationWork from "../components/UI/CustomizationWork";
+import Partners from "../components/UI/Partners";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         images={BannerImage}
         buttonState={true}
       ></Banner>
+      <Partners></Partners>
       <Wave></Wave>
       <CustomizationWork></CustomizationWork>
     </>
