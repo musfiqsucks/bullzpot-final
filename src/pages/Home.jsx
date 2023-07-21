@@ -3,6 +3,7 @@ import BannerImage from "../assets/illustrations.webp";
 import Wave from "../components/Wave";
 import CustomizationWork from "../components/UI/CustomizationWork";
 import Partners from "../components/UI/Partners";
+import LoveTrustSection from "../components/UI/LoveTrustSection";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       ></Banner>
       <Partners></Partners>
       <Wave></Wave>
+      <LoveTrustSection></LoveTrustSection>
       <CustomizationWork></CustomizationWork>
     </>
   );
