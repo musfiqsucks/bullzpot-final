@@ -9,7 +9,7 @@ import FooterWave from "../components/FooterWave";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <>
+    <div className="-mt-20 md:-mt-32">
       <FooterWave></FooterWave>
       <div className="bg-[#FDF6E7]">
         <div className="max-w-screen-xl py-8 w-10/12 mx-auto">
@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

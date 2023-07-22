@@ -5,6 +5,7 @@ import CustomizationWork from "../components/UI/CustomizationWork";
 import Partners from "../components/UI/Partners";
 import LoveTrustSection from "../components/UI/LoveTrustSection";
 import CompanyOverview from "../components/UI/CompanyOverview";
+import CustomizationProject from "../components/UI/CustomizationProject";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <CompanyOverview></CompanyOverview>
       <LoveTrustSection></LoveTrustSection>
       <CustomizationWork></CustomizationWork>
+      <CustomizationProject></CustomizationProject>
     </>
   );
 };

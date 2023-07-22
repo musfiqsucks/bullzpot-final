@@ -11,7 +11,7 @@ const CustomizationWork = () => {
     <>
       <CustomizationWorkWave></CustomizationWorkWave>
       <div className="bg-secondary">
-        <div className="max-w-screen-xl py-8 w-10/12 mx-auto">
+        <div className="max-w-screen-xl py-20 w-10/12 mx-auto">
           <div className="text-center  md:w-2/5  mx-auto">
             <h2 className="text-4xl md:text-[44px] font-bold color-white leading-10 md:leading-[50px]">
               How Shopify Customization Works
