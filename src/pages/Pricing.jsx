@@ -1,3 +1,4 @@
+import Faq from "../components/UI/FAQ";
 import LoveTrustSection from "../components/UI/LoveTrustSection";
 import Price from "../components/UI/Price";
 import PriceCard from "../components/UI/PriceCard";
@@ -10,6 +11,7 @@ const Pricing = () => {
       <PriceCard></PriceCard>
       <Wave></Wave>
       <LoveTrustSection></LoveTrustSection>
+      <Faq></Faq>
     </div>
   );
 };

@@ -2,6 +2,7 @@ import Banner from "../components/UI/Banner";
 import AboutBannerImage from "../assets/about-page-banner-image.webp";
 import Wave from "../components/Wave";
 import LoveTrustSection from "../components/UI/LoveTrustSection";
+import BullzpotDifference from "../components/UI/BullzpotDifference";
 
 const About = () => {
   return (
@@ -17,6 +18,7 @@ const About = () => {
         buttonState={false}
       ></Banner>
       <Wave></Wave>
+      <BullzpotDifference></BullzpotDifference>
       <LoveTrustSection></LoveTrustSection>
     </>
   );

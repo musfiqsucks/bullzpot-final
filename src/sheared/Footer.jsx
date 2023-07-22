@@ -47,22 +47,38 @@ const Footer = () => {
                   </Link>
                 </div>
                 <div className="flex justify-center gap-8 mt-5">
-                  <a href="/https://www.linkedin.com/" target="_blank">
+                  <a
+                    href="https://www.linkedin.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <BsLinkedin
                       size={20}
                       className=" color-primary"
                     ></BsLinkedin>
                   </a>
-                  <a href="/https://www.facebook.com/" target="_blank">
+                  <a
+                    href="https://www.facebook.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <FaFacebookSquare
                       size={20}
                       className=" color-primary"
                     ></FaFacebookSquare>
                   </a>
-                  <a href="/https://www.github.com/" target="_blank">
+                  <a
+                    href="https://www.github.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <BsGithub size={20} className=" color-primary"></BsGithub>
                   </a>
-                  <a href="/https://www.twitter.com/" target="_blank">
+                  <a
+                    href="https://www.twitter.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <BsTwitter size={20} className=" color-primary"></BsTwitter>
                   </a>
                 </div>
@@ -85,7 +101,11 @@ const Footer = () => {
                   Grow your business, <br /> Create an online shop.
                 </p>
                 <button className="bg-[#95BF47] mt-2 py-2 px-6 rounded-md font-semibold text-lg color-white">
-                  <a href="/https://www.shopify.com/" target="_blank">
+                  <a
+                    href="https://www.shopify.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     Try it free today
                   </a>
                 </button>

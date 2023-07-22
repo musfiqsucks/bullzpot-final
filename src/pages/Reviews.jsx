@@ -1,6 +1,8 @@
 import Banner from "../components/UI/Banner";
 import ReviewsBannerImage from "../assets/review-page-banner-image.webp";
 import Wave from "../components/Wave";
+import CompanyOverview from "../components/UI/CompanyOverview";
+import LoveTrustSection from "../components/UI/LoveTrustSection";
 
 const Reviews = () => {
   return (
@@ -16,6 +18,8 @@ const Reviews = () => {
         buttonState={false}
       ></Banner>
       <Wave></Wave>
+      <LoveTrustSection></LoveTrustSection>
+      <CompanyOverview></CompanyOverview>
     </>
   );
 };
