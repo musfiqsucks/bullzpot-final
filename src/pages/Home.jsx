@@ -4,6 +4,7 @@ import Wave from "../components/Wave";
 import CustomizationWork from "../components/UI/CustomizationWork";
 import Partners from "../components/UI/Partners";
 import LoveTrustSection from "../components/UI/LoveTrustSection";
+import CompanyOverview from "../components/UI/CompanyOverview";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       ></Banner>
       <Partners></Partners>
       <Wave></Wave>
+      <CompanyOverview></CompanyOverview>
       <LoveTrustSection></LoveTrustSection>
       <CustomizationWork></CustomizationWork>
     </>
