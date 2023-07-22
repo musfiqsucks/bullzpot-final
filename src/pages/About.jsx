@@ -3,6 +3,7 @@ import AboutBannerImage from "../assets/about-page-banner-image.webp";
 import Wave from "../components/Wave";
 import LoveTrustSection from "../components/UI/LoveTrustSection";
 import BullzpotDifference from "../components/UI/BullzpotDifference";
+import GreatPartners from "../components/UI/GreatPartners";
 
 const About = () => {
   return (
@@ -19,6 +20,7 @@ const About = () => {
       ></Banner>
       <Wave></Wave>
       <BullzpotDifference></BullzpotDifference>
+      <GreatPartners></GreatPartners>
       <LoveTrustSection></LoveTrustSection>
     </>
   );
