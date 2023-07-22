@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,16 +9,19 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="relative bg-primary dark:bg-gray-800">
+      <nav className="relative bg-primary">
         <div className="container max-w-screen-xl w-10/12 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
-            <a href="#">
-              <img
+            <Link to="/">
+              {/* <img
                 className="w-auto h-6 sm:h-7"
                 src="https://merakiui.com/images/full-logo.svg"
                 alt=""
-              />
-            </a>
+              /> */}
+              <p className="text-lg font-bold color-primary">
+                Bullzpot or Company Logo
+              </p>
+            </Link>
 
             {/* Mobile menu button */}
             <div className="flex lg:hidden">
@@ -64,40 +68,46 @@ const Navbar = () => {
 
           {/* Mobile Menu open: "block", Menu closed: "hidden" */}
           <div
-            className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${
+            className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-primary dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${
               isOpen
                 ? "translate-x-0 opacity-100"
                 : "opacity-0 -translate-x-full"
             }`}
           >
             <div className="flex flex-col md:flex-row md:mx-6">
-              <a
-                className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-                href="#"
+              <Link
+                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform  hover:underline md:mx-4 md:my-0"
+                to="/"
               >
                 Home
-              </a>
-              <a
-                className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-                href="#"
-              >
-                Shop
-              </a>
-              <a
-                className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-                href="#"
-              >
-                Contact
-              </a>
-              <a
-                className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-                href="#"
+              </Link>
+              <Link
+                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform  hover:underline md:mx-4 md:my-0"
+                to="/about-us"
               >
                 About
-              </a>
+              </Link>
+              <Link
+                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform  hover:underline md:mx-4 md:my-0"
+                to="/reviews"
+              >
+                Reviews
+              </Link>
+              <Link
+                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform  hover:underline md:mx-4 md:my-0"
+                to="/pricing"
+              >
+                Pricing
+              </Link>
+              <Link
+                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform  hover:underline md:mx-4 md:my-0"
+                to="/login"
+              >
+                Login
+              </Link>
             </div>
 
-            <div className="flex justify-center md:block">
+            {/* <div className="flex justify-center md:block">
               <a
                 className="relative text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-300"
                 href="#"
@@ -119,7 +129,7 @@ const Navbar = () => {
 
                 <span className="absolute top-0 left-0 p-1 text-xs text-white bg-blue-500 rounded-full"></span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
