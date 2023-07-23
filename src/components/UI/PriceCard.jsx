@@ -56,7 +56,7 @@ const PriceCard = () => {
           <div className="md:w-1/2 h-96 bg-secondary px-10 py-10">
             <h2 className="text-2xl font-bold color-white">Average Cost</h2>
             <h1 className="text-[40px] font-bold color-white">$89 - $250</h1>
-            <button className="bg-orange hover:bg-orange-400 duration-300 ease-in-out  py-3 w-full font-semibold my-8 rounded-md color-white px-6 flex justify-center items-center">
+            <button className="bg-orange hover:bg-orange-400 duration-300 ease-in-out  py-3 w-full font-semibold my-4 md:my-8 rounded-md color-white px-6 flex justify-center items-center">
               Get a Free Quote
             </button>
             <div className="relative mt-10">

@@ -8,7 +8,7 @@ const BullzpotDifference = () => {
   return (
     <div className="max-w-screen-xl py-8 w-10/12 mx-auto">
       <h2 className="text-[40px] font-bold color-primary mb-10 text-center">
-        The TaskHusky difference
+        The Bullzpot difference
       </h2>
       <div className="flex flex-col md:flex-row gap-5">
         <div className=" md:w-[60%] border-solid border-[1px] border-gray-200 p-5 rounded-xl shadow-lg text-center md:text-left ">

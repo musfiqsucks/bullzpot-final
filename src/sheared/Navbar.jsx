@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,6 +7,13 @@ const Navbar = () => {
   const handleMenuToggle = () => {
     setIsOpen(!isOpen);
   };
+
+  const linkStyle = ({ isActive }) => {
+    return {
+      textDecoration: isActive ? "underline" : "none",
+    };
+  };
+
   return (
     <>
       <nav className="relative bg-primary">
@@ -28,7 +35,7 @@ const Navbar = () => {
               <button
                 onClick={handleMenuToggle}
                 type="button"
-                className="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
+                className="text-gray-500"
                 aria-label="toggle menu"
               >
                 {!isOpen ? (
@@ -68,43 +75,48 @@ const Navbar = () => {
 
           {/* Mobile Menu open: "block", Menu closed: "hidden" */}
           <div
-            className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-primary dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${
+            className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-primary md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${
               isOpen
                 ? "translate-x-0 opacity-100"
                 : "opacity-0 -translate-x-full"
             }`}
           >
             <div className="flex flex-col md:flex-row md:mx-6">
-              <Link
-                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform  hover:underline md:mx-4 md:my-0"
+              <NavLink
+                style={linkStyle}
+                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform   md:mx-4 md:my-0"
                 to="/"
               >
                 Home
-              </Link>
-              <Link
-                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform  hover:underline md:mx-4 md:my-0"
+              </NavLink>
+              <NavLink
+                style={linkStyle}
+                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform   md:mx-4 md:my-0"
                 to="/about-us"
               >
                 About
-              </Link>
-              <Link
-                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform  hover:underline md:mx-4 md:my-0"
+              </NavLink>
+              <NavLink
+                style={linkStyle}
+                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform   md:mx-4 md:my-0"
                 to="/reviews"
               >
                 Reviews
-              </Link>
-              <Link
-                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform  hover:underline md:mx-4 md:my-0"
+              </NavLink>
+              <NavLink
+                style={linkStyle}
+                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform   md:mx-4 md:my-0"
                 to="/pricing"
               >
                 Pricing
-              </Link>
-              <Link
-                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform  hover:underline md:mx-4 md:my-0"
+              </NavLink>
+              <NavLink
+                style={linkStyle}
+                className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform   md:mx-4 md:my-0"
                 to="/login"
               >
                 Login
-              </Link>
+              </NavLink>
             </div>
 
             {/* <div className="flex justify-center md:block">

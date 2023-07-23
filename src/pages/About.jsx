@@ -4,6 +4,7 @@ import Wave from "../components/Wave";
 import LoveTrustSection from "../components/UI/LoveTrustSection";
 import BullzpotDifference from "../components/UI/BullzpotDifference";
 import GreatPartners from "../components/UI/GreatPartners";
+import AboutTimeline from "../components/UI/AboutTimeline";
 
 const About = () => {
   return (
@@ -20,6 +21,7 @@ const About = () => {
       ></Banner>
       <Wave></Wave>
       <BullzpotDifference></BullzpotDifference>
+      <AboutTimeline></AboutTimeline>
       <GreatPartners></GreatPartners>
       <LoveTrustSection></LoveTrustSection>
     </>
