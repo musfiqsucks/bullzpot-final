@@ -59,13 +59,13 @@ const PriceCard = () => {
             <button className="bg-orange hover:bg-orange-400 duration-300 ease-in-out  py-3 w-full font-semibold my-4 md:my-8 rounded-md color-white px-6 flex justify-center items-center">
               Get a Free Quote
             </button>
-            <div className="relative mt-10">
+            <div className="relative mt-8 md:mt-10">
               <div className="flex">
                 <div className="">
                   <img className="w-full" src={GuaranteedIcon} alt="" />
                 </div>
               </div>
-              <div className="color-white absolute top-0 left-14">
+              <div className="color-white absolute top-0 left-6 md:left-14">
                 <h2 className="text-xl font-bold">
                   100% Satisfaction Guaranteed
                 </h2>

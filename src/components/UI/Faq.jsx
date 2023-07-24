@@ -1,58 +1,3 @@
-// import { useState } from "react";
-// import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
-// import { faqData } from "../../helpers/data";
-
-// const Faq = () => {
-//   const [activeIndex, setActiveIndex] = useState(null);
-
-//   const handleToggle = (index) => {
-//     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
-//   };
-//   return (
-//     <div className="max-w-screen-xl py-8 w-10/12 mx-auto">
-//       <div className="flex flex-col md:flex-row">
-//         <div className="md:w-1/2">
-//           <p>
-//             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-//             Perspiciatis, autem.
-//           </p>
-//         </div>
-//         <div className="faq-accordion md:w-1/2">
-//           {faqData.map((item, index) => (
-//             <div
-//               className="faq-item mb-3 py-2 border-b-2 border-solid border-gray-300 "
-//               key={index}
-//             >
-//               <div
-//                 className="faq-question flex justify-between cursor-pointer"
-//                 onClick={() => handleToggle(index)}
-//               >
-//                 <h3>{item.question}</h3>
-//                 <span>
-//                   {activeIndex === index ? (
-//                     <AiOutlineMinus />
-//                   ) : (
-//                     <AiOutlinePlus />
-//                   )}
-//                 </span>
-//               </div>
-//               <p>
-//                 {" "}
-//                 {activeIndex === index && (
-//                   <div className="faq-answer ">{item.answer}</div>
-//                 )}
-//               </p>
-//               <hr />
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Faq;
-
 import { useState } from "react";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { faqData } from "../../helpers/data";
@@ -86,7 +31,6 @@ const Faq = () => {
             <div
               className="faq-item mb-3 py-2 border-b-[1px] border-solid border-[#c8c8d4ca] "
               key={index}
-              // style={{ maxHeight: activeIndex === index ? "500px" : "0px" }}
             >
               <div
                 className="faq-question flex justify-between cursor-pointer "

@@ -5,6 +5,8 @@ import Reviews from "../pages/Reviews";
 import Pricing from "../pages/Pricing";
 import App from "../App";
 import NotFound from "../pages/NotFound";
+import SignIn from "../pages/SignIn";
+import SignUp from "../pages/Signup";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
         element: <Pricing></Pricing>,
       },
     ],
+  },
+  {
+    path: "/login",
+    element: <SignIn></SignIn>,
+  },
+  {
+    path: "/signup",
+    element: <SignUp></SignUp>,
   },
   {
     path: "*",
