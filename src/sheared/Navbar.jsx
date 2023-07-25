@@ -113,9 +113,9 @@ const Navbar = () => {
               <NavLink
                 style={linkStyle}
                 className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform   md:mx-4 md:my-0"
-                to="/login"
+                to="/signin"
               >
-                Login
+                Sing In
               </NavLink>
             </div>
 
