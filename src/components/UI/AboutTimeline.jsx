@@ -1,4 +1,5 @@
 import timeLineImage from "../../assets/image_30.webp";
+import { mobileTimelineData } from "../../helpers/data";
 
 const AboutTimeline = () => {
   return (
@@ -64,15 +65,22 @@ const AboutTimeline = () => {
       {/* timelineEnd */}
       {/* for mobile view code start  */}
       <div className="block md:hidden">
-        <div className="order-1 bg-secondary rounded-lg shadow-xl px-6 py-6 text-center mt-8">
-          <h3 className="mb-3 font-bold text-white text-2xl">Early days</h3>
-          <p className="text-base font-medium leading-snug tracking-wide text-white text-opacity-80">
-            We want you to be fully informed when you choose TaskHusky as your
-            Shopify & Shopify Plus development team. We’ve compiled a list of
-            frequently asked questions to help make your decision easier.
-          </p>
-        </div>
-        <div className="order-1 bg-secondary rounded-lg shadow-xl px-6 py-6 text-center mt-5">
+        {mobileTimelineData?.map((data, index) => (
+          <div
+            key={index}
+            className={`order-1 bg-secondary rounded-lg shadow-xl px-6 py-6 text-center ${
+              data?.marginTop ? data.marginTop : "mt-8"
+            }`}
+          >
+            <h3 className="mb-3 font-bold text-white text-2xl">
+              {data?.title}
+            </h3>
+            <p className="text-base font-medium leading-snug tracking-wide text-white text-opacity-80">
+              {data?.description}
+            </p>
+          </div>
+        ))}
+        {/* <div className="order-1 bg-secondary rounded-lg shadow-xl px-6 py-6 text-center mt-5">
           <h3 className="mb-3 font-bold text-white text-2xl">Grow</h3>
           <p className="text-base font-medium leading-snug tracking-wide text-white text-opacity-80">
             We want you to be fully informed when you choose TaskHusky as your
@@ -87,7 +95,7 @@ const AboutTimeline = () => {
             Shopify & Shopify Plus development team. We’ve compiled a list of
             frequently asked questions to help make your decision easier.
           </p>
-        </div>
+        </div> */}
       </div>
       {/* for mobile view code end */}
     </div>
