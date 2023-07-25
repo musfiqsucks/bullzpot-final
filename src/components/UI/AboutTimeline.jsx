@@ -80,22 +80,6 @@ const AboutTimeline = () => {
             </p>
           </div>
         ))}
-        {/* <div className="order-1 bg-secondary rounded-lg shadow-xl px-6 py-6 text-center mt-5">
-          <h3 className="mb-3 font-bold text-white text-2xl">Grow</h3>
-          <p className="text-base font-medium leading-snug tracking-wide text-white text-opacity-80">
-            We want you to be fully informed when you choose TaskHusky as your
-            Shopify & Shopify Plus development team. We’ve compiled a list of
-            frequently asked questions to help make your decision easier.
-          </p>
-        </div>
-        <div className="order-1 bg-secondary rounded-lg shadow-xl px-6 py-6 text-center mt-5">
-          <h3 className="mb-3 font-bold text-white text-2xl">Now</h3>
-          <p className="text-base font-medium leading-snug tracking-wide text-white text-opacity-80">
-            We want you to be fully informed when you choose TaskHusky as your
-            Shopify & Shopify Plus development team. We’ve compiled a list of
-            frequently asked questions to help make your decision easier.
-          </p>
-        </div> */}
       </div>
       {/* for mobile view code end */}
     </div>

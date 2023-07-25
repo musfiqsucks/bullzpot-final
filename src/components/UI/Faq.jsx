@@ -27,7 +27,7 @@ const Faq = () => {
           </p>
         </div>
         <div className="faq-accordion md:w-[60%]">
-          {faqData.map((item, index) => (
+          {faqData?.map((item, index) => (
             <div
               className="faq-item mb-3 py-2 border-b-[1px] border-solid border-[#c8c8d4ca] "
               key={index}
@@ -37,7 +37,7 @@ const Faq = () => {
                 onClick={() => handleToggle(index)}
               >
                 <h3 className="text-lg font-semibold color-primary">
-                  {item.question}
+                  {item?.question}
                 </h3>
                 <span>
                   {activeIndex === index ? (
@@ -49,7 +49,7 @@ const Faq = () => {
               </div>
               <p className="text base color-primary font-medium">
                 {activeIndex === index && (
-                  <div className="faq-answer">{item.answer}</div>
+                  <div className="faq-answer">{item?.answer}</div>
                 )}
               </p>
               <hr />
