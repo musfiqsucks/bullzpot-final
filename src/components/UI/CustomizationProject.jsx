@@ -25,7 +25,7 @@ const CustomizationProject = () => {
           <div>
             <img src={projectIcon1} alt="" />
           </div>
-          <h1 className="text-2xl font-bold color-primary mt-5 md:mt-[108px] mb-4">
+          <h1 className="text-2xl font-bold color-primary mt-5 md:mt-[90px] mb-4">
             Make Product Page customizations
           </h1>
           <p className="text-xl font-medium color-primary">
@@ -109,7 +109,7 @@ const CustomizationProject = () => {
           <div>
             <img src={projectIcon6} alt="" />
           </div>
-          <h1 className="text-2xl font-bold color-primary mt-5 md:mt-[128px] mb-4">
+          <h1 className="text-2xl font-bold color-primary mt-5 md:mt-[110px] mb-4">
             Page speed getting you down? Let&#39;s see how we can fix that
           </h1>
           <p className="text-xl font-medium color-primary">
