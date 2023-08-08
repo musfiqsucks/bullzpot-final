@@ -16,18 +16,15 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="relative bg-primary">
+      <nav className="relative bg-[#ECF4FF]">
         <div className="container max-w-screen-xl w-10/12 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
             <Link to="/">
-              {/* <img
-                className="w-auto h-6 sm:h-7"
-                src="https://merakiui.com/images/full-logo.svg"
+              <img
+                className="mainlogo"
+                src="https://i.ibb.co/ZSxJg78/Bullzpot-1-removebg-preview.png"
                 alt=""
-              /> */}
-              <p className="text-lg font-bold color-primary">
-                Bullzpot or Company Logo
-              </p>
+              />
             </Link>
 
             {/* Mobile menu button */}
@@ -110,13 +107,13 @@ const Navbar = () => {
               >
                 Pricing
               </NavLink>
-              <NavLink
+              {/*   <NavLink
                 style={linkStyle}
                 className="my-2 text-lg color-primary font-semibold transition-colors duration-300 transform   md:mx-4 md:my-0"
                 to="/signin"
               >
                 Sing In
-              </NavLink>
+          </NavLink> */}
             </div>
 
             {/* <div className="flex justify-center md:block">

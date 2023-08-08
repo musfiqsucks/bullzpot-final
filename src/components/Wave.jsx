@@ -10,7 +10,7 @@ const Wave = () => {
       >
         <defs>
           <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-            <stop stopColor="#f9f9fd" offset="100%"></stop>
+            <stop stopColor="#ECF4FF" offset="100%"></stop>
           </linearGradient>
         </defs>
         <path

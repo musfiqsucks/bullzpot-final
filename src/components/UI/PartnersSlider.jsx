@@ -1,15 +1,15 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import partners from "../../assets/partners/partners.webp";
-import partners1 from "../../assets/partners/partners_1.webp";
-import partners2 from "../../assets/partners/partners_2.webp";
-import partners3 from "../../assets/partners/partners_3.webp";
-import partners4 from "../../assets/partners/partners_4.webp";
-import partners5 from "../../assets/partners/partners_5.webp";
-import partners6 from "../../assets/partners/partners_6.webp";
-import partners8 from "../../assets/partners/partners_8.webp";
-import partners9 from "../../assets/partners/partners_9.webp";
+import partners from "../../assets/partners/8.png";
+import partners1 from "../../assets/partners/1.png";
+import partners2 from "../../assets/partners/2.png";
+import partners3 from "../../assets/partners/3.png";
+import partners4 from "../../assets/partners/4.png";
+import partners5 from "../../assets/partners/5.png";
+import partners6 from "../../assets/partners/6.png";
+import partners8 from "../../assets/partners/7.png";
+
 
 const PartnersSlider = () => {
   let settings = {
@@ -58,9 +58,6 @@ const PartnersSlider = () => {
       </div>
       <div>
         <img className="m-auto" src={partners8} alt="" />
-      </div>
-      <div>
-        <img className="m-auto" src={partners9} alt="" />
       </div>
       <div>
         <img className="m-auto" src={partners4} alt="" />

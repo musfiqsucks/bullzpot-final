@@ -13,11 +13,11 @@ const CustomizationProject = () => {
     <div className="max-w-screen-xl py-8 w-10/12 mx-auto">
       <div className="text-center">
         <h1 className="text-[40px] color-primary font-bold md:w-1/2 m-auto leading-[50px]">
-          We have here to help with your Shopify and Shopify Plus customization
-          projects
+          We are here for your Shopify, WordPress and custom web <br></br>
+          project needs.
         </h1>
         <p className="font-base color-primary mt-4">
-          Even small projects can have a huge impact!
+          Even the smallest projects can make a significant difference!
         </p>
       </div>
       <div className="columns-1 md:columns-2 gap-5 mt-10">
@@ -26,15 +26,20 @@ const CustomizationProject = () => {
             <img src={projectIcon1} alt="" />
           </div>
           <h1 className="text-2xl font-bold color-primary mt-5 md:mt-[90px] mb-4">
-            Make Product Page customizations
+            Any Theme Customizations!
           </h1>
           <p className="text-xl font-medium color-primary">
-            Customizing a product page can greatly enhance the user experience
-            by presenting information in a clear and organized manner. This can
-            be achieved by adding or removing sections, adjusting the layout,
-            and incorporating product images or videos.
+            Looking to tailor your online store or website to your unique brand
+            identity? We specialize in customizing both Shopify and WordPress
+            themes to align perfectly with your vision. Whether it&#39;s a
+            subtle change or a complete start from scratch, trust us to bring
+            your digital dreams to life.
           </p>
-          <button className=" color-primary mt-3 flex justify-center items-center">
+
+          <button
+            href="mailto:bullzpot@gmail.com"
+            className=" color-primary mt-3 flex justify-center items-center"
+          >
             Get a Free Quote
             <BiSolidChevronRight
               className="ml-1 "
@@ -47,7 +52,7 @@ const CustomizationProject = () => {
             <img src={projectIcon2} alt="" />
           </div>
           <h1 className="text-xl font-bold color-primary mt-5">
-            Configure a brand new theme to hit the ground running
+            Configure a brand new theme to your specific needs!
           </h1>
           <button className=" color-primary mt-3 flex justify-center items-center">
             Get a Free Quote
@@ -62,8 +67,7 @@ const CustomizationProject = () => {
             <img src={projectIcon3} alt="" />
           </div>
           <h1 className="text-xl font-bold color-primary mt-5">
-            Add small features like a shipping cost calculator or age
-            verification gate
+            Add any functional changes according to your business campaigns!
           </h1>
           <button className=" color-primary mt-3 flex justify-center items-center">
             Get a Free Quote
@@ -80,7 +84,7 @@ const CustomizationProject = () => {
             <img src={projectIcon4} alt="" />
           </div>
           <h1 className="text-xl font-bold color-primary mt-5">
-            Update your existing theme and get access to its newest features
+            Update your current website theme to the newest editions!
           </h1>
           <button className=" color-primary mt-3 flex justify-center items-center">
             Get a Free Quote
@@ -95,7 +99,8 @@ const CustomizationProject = () => {
             <img src={projectIcon5} alt="" />
           </div>
           <h1 className="text-xl font-bold color-primary mt-5">
-            Get a full online store audit to learn what you should be optimizing
+            Get the online shop audited by our experts to increase sales
+            significantly!
           </h1>
           <button className=" color-primary mt-3 flex justify-center items-center">
             Get a Free Quote
@@ -110,13 +115,14 @@ const CustomizationProject = () => {
             <img src={projectIcon6} alt="" />
           </div>
           <h1 className="text-2xl font-bold color-primary mt-5 md:mt-[110px] mb-4">
-            Page speed getting you down? Let&#39;s see how we can fix that
+            Is slow page speed troubling you?
           </h1>
           <p className="text-xl font-medium color-primary">
-            Increasing page speed can lead to a better user experience and lower
-            bounce rates, which can ultimately result in an increase in sales.
-            Faster loading pages can also improve SEO, making it easier for
-            potential customers to find your website.
+            Enhancing page load times can elevate user satisfaction and decrease
+            the likelihood of visitors leaving prematurely. This can directly
+            boost your sales figures. Moreover, swifter pages can bolster your
+            SEO ranking, amplifying your site&#39;s visibility to prospective
+            customers.
           </p>
           <button className=" color-primary mt-3 flex justify-center items-center">
             Get a Free Quote
@@ -132,11 +138,11 @@ const CustomizationProject = () => {
           <img src={projectIcon7} alt="" />
         </div>
         <h1 className="text-2xl font-bold color-primary mt-5 md:mt-10 mb-4">
-          And everything else
+          And much more!
         </h1>
         <p className="text-base color-primary md:w-2/5 m-auto">
-          Don&#39;t see what you are looking for here? No worries. Create a Task
-          request and a member of our team will let you know if it is possible.
+          Can&#39;t find what you need? Submit a task request, and our team will
+          quickly confirm the project and start working on it.
         </p>
         <div className="flex justify-center my-6">
           <MainButton></MainButton>
