@@ -7,6 +7,7 @@ import projectIcon6 from "../../assets/cards_icons_4_small.webp";
 import projectIcon7 from "../../assets/cards_icons_10_small.png";
 import { BiSolidChevronRight } from "react-icons/bi";
 import MainButton from "../MainButton";
+import { Link } from "react-router-dom";
 
 const CustomizationProject = () => {
   return (
@@ -36,15 +37,17 @@ const CustomizationProject = () => {
             your digital dreams to life.
           </p>
 
-          <button
-            href="mailto:bullzpot@gmail.com"
-            className=" color-primary mt-3 flex justify-center items-center"
-          >
-            Get a Free Quote
-            <BiSolidChevronRight
-              className="ml-1 "
-              size={18}
-            ></BiSolidChevronRight>
+          <button>
+            <Link
+              to="mailto:bullzpot@gmail.com?Subject=Any%20Theme%20Customization"
+              className=" color-primary mt-3 flex justify-center items-center"
+            >
+              Get a Free Quote
+              <BiSolidChevronRight
+                className="ml-1 "
+                size={18}
+              ></BiSolidChevronRight>
+            </Link>
           </button>
         </div>
         <div className="break-inside-avoid mb-5 border-solid border-[1px] border-gray-200 p-5 rounded-xl shadow-lg">
@@ -54,12 +57,17 @@ const CustomizationProject = () => {
           <h1 className="text-xl font-bold color-primary mt-5">
             Configure a brand new theme to your specific needs!
           </h1>
-          <button className=" color-primary mt-3 flex justify-center items-center">
-            Get a Free Quote
-            <BiSolidChevronRight
-              className="ml-1 "
-              size={18}
-            ></BiSolidChevronRight>
+          <button>
+            <Link
+              to="mailto:bullzpot@gmail.com?Subject=Configure%20a%20brand%20new%20theme%20to%20your%20specific%20needs"
+              className=" color-primary mt-3 flex justify-center items-center"
+            >
+              Get a Free Quote
+              <BiSolidChevronRight
+                className="ml-1 "
+                size={18}
+              ></BiSolidChevronRight>
+            </Link>
           </button>
         </div>
         <div className="break-inside-avoid mb-5 border-solid border-[1px] border-gray-200 p-5 rounded-xl shadow-lg">
@@ -69,12 +77,17 @@ const CustomizationProject = () => {
           <h1 className="text-xl font-bold color-primary mt-5">
             Add any functional changes according to your business campaigns!
           </h1>
-          <button className=" color-primary mt-3 flex justify-center items-center">
-            Get a Free Quote
-            <BiSolidChevronRight
-              className="ml-1 "
-              size={18}
-            ></BiSolidChevronRight>
+          <button>
+            <Link
+              to="mailto:bullzpot@gmail.com?Subject=Add%20any%20functional%20changes%20according%20to%20to%20your%20business%20campaigns"
+              className=" color-primary mt-3 flex justify-center items-center"
+            >
+              Get a Free Quote
+              <BiSolidChevronRight
+                className="ml-1 "
+                size={18}
+              ></BiSolidChevronRight>
+            </Link>
           </button>
         </div>
       </div>
@@ -86,12 +99,17 @@ const CustomizationProject = () => {
           <h1 className="text-xl font-bold color-primary mt-5">
             Update your current website theme to the newest editions!
           </h1>
-          <button className=" color-primary mt-3 flex justify-center items-center">
-            Get a Free Quote
-            <BiSolidChevronRight
-              className="ml-1 "
-              size={18}
-            ></BiSolidChevronRight>
+          <button>
+            <Link
+              to="mailto:bullzpot@gmail.com?Subject=Update%20your%20current%20website%20theme%20to%20the%20newest%20editions"
+              className=" color-primary mt-3 flex justify-center items-center"
+            >
+              Get a Free Quote
+              <BiSolidChevronRight
+                className="ml-1 "
+                size={18}
+              ></BiSolidChevronRight>
+            </Link>
           </button>
         </div>
         <div className="break-inside-avoid mb-5 border-solid border-[1px] border-gray-200 p-5 rounded-xl shadow-lg">
@@ -102,12 +120,17 @@ const CustomizationProject = () => {
             Get the online shop audited by our experts to increase sales
             significantly!
           </h1>
-          <button className=" color-primary mt-3 flex justify-center items-center">
-            Get a Free Quote
-            <BiSolidChevronRight
-              className="ml-1 "
-              size={18}
-            ></BiSolidChevronRight>
+          <button>
+            <Link
+              to="mailto:bullzpot@gmail.com?Subject=Get%20the%20online%20shop%20audited%20by%20our%20experts%20to%20increase%20sales%20significantly"
+              className=" color-primary mt-3 flex justify-center items-center"
+            >
+              Get a Free Quote
+              <BiSolidChevronRight
+                className="ml-1 "
+                size={18}
+              ></BiSolidChevronRight>
+            </Link>
           </button>
         </div>
         <div className="break-inside-avoid mb-5 border-solid border-[1px] border-gray-200 p-5 rounded-xl shadow-lg">
@@ -124,12 +147,17 @@ const CustomizationProject = () => {
             SEO ranking, amplifying your site&#39;s visibility to prospective
             customers.
           </p>
-          <button className=" color-primary mt-3 flex justify-center items-center">
-            Get a Free Quote
-            <BiSolidChevronRight
-              className="ml-1 "
-              size={18}
-            ></BiSolidChevronRight>
+          <button>
+            <Link
+              to="mailto:bullzpot@gmail.com?Subject=Is%20slow%20page%20speed%20troubling%20you?"
+              className=" color-primary mt-3 flex justify-center items-center"
+            >
+              Get a Free Quote
+              <BiSolidChevronRight
+                className="ml-1 "
+                size={18}
+              ></BiSolidChevronRight>
+            </Link>
           </button>
         </div>
       </div>
