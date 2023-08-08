@@ -14,10 +14,10 @@ const CustomizationWork = () => {
         <div className="max-w-screen-xl py-20 w-10/12 mx-auto">
           <div className="text-center  md:w-2/5  mx-auto">
             <h2 className="text-4xl md:text-[44px] font-bold color-white leading-10 md:leading-[50px]">
-              How Shopify Customization Works
+              How to Start!
             </h2>
             <p className="font-medium text-2xl leading-[36px] mt-5 color-white">
-              Getting your project done with TaskHusky is super-easy and fast
+            High Quality Projects Get Done, Super-Easy & Fast!
             </p>
           </div>
           <div className="relative">
@@ -28,11 +28,10 @@ const CustomizationWork = () => {
                 </div>
                 <div className="mt-6">
                   <h2 className="text-xl font-bold color-white">
-                    Tell us about your Task
+                    Brief us about your project
                   </h2>
                   <p className="text-base color-white mt-2 w-2/3 mx-auto">
-                    Tell us your Shopify customization requirement - large or
-                    small.
+                    Let us know about your website project requirements - any customization request.
                   </p>
                 </div>
               </div>
@@ -42,11 +41,10 @@ const CustomizationWork = () => {
                 </div>
                 <div className="mt-6">
                   <h2 className="text-xl font-bold color-white">
-                    Approve Your Quote
+                    Confirm the quotation
                   </h2>
                   <p className="text-base color-white mt-2 w-2/3 mx-auto">
-                    We will review your task and deliver a quote. All you have
-                    to do is approve it.
+                  We'll swiftly provide a customized quote. Once you approve, let us take care of the rest!
                   </p>
                 </div>
               </div>
@@ -57,7 +55,7 @@ const CustomizationWork = () => {
                 <div className="mt-6">
                   <h2 className="text-xl font-bold color-white">Get it Done</h2>
                   <p className="text-base color-white mt-2 w-2/3 mx-auto">
-                    Boom ... your Clean Canvas theme customization will be done
+                    Boom ... your high converting web or app customization will be done
                     - on time.
                   </p>
                 </div>

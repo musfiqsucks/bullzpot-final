@@ -7,7 +7,7 @@ const CompanyOverview = () => {
           <div>
             <h2 className="text-base font-bold color-primary">Bullzpot.com</h2>
             <h1 className="text-4xl font-bold color-primary">
-              The Bullzpot <br /> difference
+              Mighty Web <br /> Services
             </h1>
           </div>
         </div>
@@ -25,7 +25,7 @@ const CompanyOverview = () => {
                   </h2>
                 </div>
                 <p className="text-base color-primary font-medium mt-1">
-                  Shopify Experts since 2016
+                  Shopify Experts since 2017
                 </p>
               </div>
             </div>
@@ -37,11 +37,11 @@ const CompanyOverview = () => {
               <div className="md:ml-4 text-center md:text-left">
                 <div className="">
                   <h2 className="text-2xl color-primary font-bold">
-                    In-house team
+                    Dedicated team
                   </h2>
                 </div>
                 <p className="text-base color-primary font-medium mt-1">
-                  No outsourced jobs. Our In-house team is here for you.
+                In-house expert team dedicated to serving your specific needs.
                 </p>
               </div>
             </div>
@@ -54,10 +54,10 @@ const CompanyOverview = () => {
               <div className="h-[80px] w-[2px] bg-orange hidden md:block"></div>
               <div className="md:ml-4 text-center md:text-left">
                 <div className=" ">
-                  <h2 className="text-2xl color-primary font-bold ">20,000+</h2>
+                  <h2 className="text-2xl color-primary font-bold ">100+ Projects</h2>
                 </div>
                 <p className="text-base color-primary font-medium mt-1">
-                  projects completed with Shopify brands
+                 web and app projects completed with various businesses
                 </p>
               </div>
             </div>
@@ -69,11 +69,11 @@ const CompanyOverview = () => {
               <div className="md:ml-4 text-center md:text-left">
                 <div className="">
                   <h2 className="text-2xl color-primary font-bold">
-                    Starting at $39
+                    Starting at $99
                   </h2>
                 </div>
                 <p className="text-base color-primary font-medium mt-1">
-                  Agency quality at freelance prices
+                Top agency quality at freelance rates
                 </p>
               </div>
             </div>

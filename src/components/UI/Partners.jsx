@@ -1,14 +1,14 @@
 // import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
-// import partners from "../../assets/partners/partners.webp";
-// import partners1 from "../../assets/partners/partners_1.webp";
-// import partners2 from "../../assets/partners/partners_2.webp";
-// import partners3 from "../../assets/partners/partners_3.webp";
-// import partners4 from "../../assets/partners/partners_4.webp";
-// import partners5 from "../../assets/partners/partners_5.webp";
-// import partners6 from "../../assets/partners/partners_6.webp";
-// import partners8 from "../../assets/partners/partners_8.webp";
+// import partners from "../../assets/partners/8.png";
+// import partners1 from "../../assets/partners/1.png";
+// import partners2 from "../../assets/partners/2.png";
+// import partners3 from "../../assets/partners/3.png";
+// import partners4 from "../../assets/partners/4.png";
+// import partners5 from "../../assets/partners/5.png";
+// import partners6 from "../../assets/partners/6.png";
+// import partners8 from "../../assets/partners/7.png";
 // import partners9 from "../../assets/partners/partners_9.webp";
 
 import PartnersSlider from "./PartnersSlider";
@@ -56,37 +56,37 @@ const Partners = () => {
         <div className="text-center mb-8 pt-4 flex justify-between items-center">
           <div className="h-[2px] w-[35%] bg-[#DFDFDF]"></div>
           <h1 className="text-xl font-bold color-primary">
-            Some of our great partners
+           What We Offer!
           </h1>
           <div className="h-[2px] w-[35%] bg-[#DFDFDF]"></div>
         </div>
         {/* <Slider {...settings}>
           <div>
-            <img className="m-auto" src={partners} alt="" />
+            <img className="m-auto" src={1} alt="" />
           </div>
           <div>
-            <img className="m-auto" src={partners5} alt="" />
+            <img className="m-auto" src={2} alt="" />
           </div>
           <div>
-            <img className="m-auto" src={partners8} alt="" />
+            <img className="m-auto" src={3} alt="" />
           </div>
           <div>
             <img className="m-auto" src={partners9} alt="" />
           </div>
           <div>
-            <img className="m-auto" src={partners4} alt="" />
+            <img className="m-auto" src={4} alt="" />
           </div>
           <div>
-            <img className="m-auto" src={partners2} alt="" />
+            <img className="m-auto" src={5} alt="" />
           </div>
           <div>
-            <img className="m-auto" src={partners6} alt="" />
+            <img className="m-auto" src={6} alt="" />
           </div>
           <div>
-            <img className="m-auto" src={partners1} alt="" />
+            <img className="m-auto" src={7} alt="" />
           </div>
           <div>
-            <img className="m-auto" src={partners3} alt="" />
+            <img className="m-auto" src={8} alt="" />
           </div>
         </Slider> */}
         <PartnersSlider></PartnersSlider>

@@ -8,7 +8,7 @@ const BullzpotDifference = () => {
   return (
     <div className="max-w-screen-xl py-8 w-10/12 mx-auto">
       <h2 className="text-[40px] font-bold color-primary mb-10 text-center">
-        The Bullzpot difference
+        Mighty Web Services
       </h2>
       <div className="flex flex-col md:flex-row gap-5">
         <div className=" md:w-[60%] border-solid border-[1px] border-gray-200 p-5 rounded-xl shadow-lg text-center md:text-left ">
@@ -16,12 +16,11 @@ const BullzpotDifference = () => {
             <img src={cardIcon1} alt="" />
           </div>
           <h1 className="text-3xl font-bold color-primary mt-5 mb-4">
-            No Project Minimums
+           The Sky is the Limit
           </h1>
           <p className="text-[22px] font-medium color-primary">
-            Whether you need a couple tweaks to your website or you’d like a
-            brand new website. We would happily review your project
-            requirements.
+          From minor website adjustments to crafting an entirely new site, we're here to address your needs. 
+          We eagerly welcome the opportunity to discuss your project specifications.
           </p>
         </div>
         <div className=" md:w-[40%] border-solid border-[1px] border-gray-200 p-5 rounded-xl shadow-lg text-center md:text-left">
@@ -29,13 +28,12 @@ const BullzpotDifference = () => {
             <img src={cardIcon2} alt="" />
           </div>
           <h1 className="text-3xl font-bold color-primary mt-5  mb-4">
-            Unlimited Revisions
+          Endless Fine-Tuning
           </h1>
           <p className="text-[22px] font-medium color-primary">
-            We understand sometimes after getting into the nitty gritty that
-            what you thought you wanted and what you actually wanted are
-            different. We are always happy to make minor modifications free of
-            charge.
+We recognize that once we delve into the details, your initial vision might evolve. Rest assured, 
+we're committed to perfecting your project,
+ offering complimentary minor adjustments whenever needed.
           </p>
         </div>
       </div>
@@ -45,12 +43,13 @@ const BullzpotDifference = () => {
             <img src={cardIcon3} alt="" />
           </div>
           <h1 className="text-3xl font-bold color-primary mt-5 mb-4">
-            100% Satisfaction Guarantee
+          Full Satisfaction Promise
           </h1>
           <p className="text-[22px] font-medium color-primary">
-            If you are not 100% satisfied with the work we do, let us know. We
-            will work until you are satisfied or credit your account for the
-            project.
+         
+Your contentment is our priority. If our work doesn't entirely meet your expectations, 
+communicate your concerns. 
+We're committed to refining until you're fully pleased.
           </p>
         </div>
         <div className=" md:w-[40%] border-solid border-[1px] border-gray-200 p-5 rounded-xl shadow-lg text-center md:text-left">
@@ -58,12 +57,12 @@ const BullzpotDifference = () => {
             <img src={cardIcon4} alt="" />
           </div>
           <h1 className="text-3xl font-bold color-primary mt-5  mb-4">
-            Direct-to-Developer
+          One-on-One with Your Developer
           </h1>
           <p className="text-[22px] font-medium color-primary">
-            You will be working directly with a web developer. No need to
-            contact the account manager for one thing, project manager for
-            another, and web developer for another.
+Engage directly with the dedicated web developer for all your needs. 
+Bypass the layers—no juggling between account managers, project coordinators, or multiple contacts. 
+Your direct line to the expertise ensures streamlined communication and efficient project execution.
           </p>
         </div>
       </div>
@@ -76,11 +75,10 @@ const BullzpotDifference = () => {
             Shopify Experts
           </h1>
           <p className="text-[22px] font-medium color-primary">
-            We are experts on the Shopify and Shopify Plus platforms. We love
-            them so much and think they do such a great job for small
-            businesses, they are the only platforms we support. It allows us to
-            learn every little detail about them to deliver the best solution
-            for you.
+          We have a cool group of developers whose passion lie deeply with Shopify and Shopify Plus. 
+          We firmly believe these platforms are unparalleled in supporting small businesses, 
+          so much so that they are the exclusive platforms we endorse. This focus enables us to master every nuance,
+           ensuring we provide you with the optimal solution.
           </p>
         </div>
         <div className=" md:w-[40%] border-solid border-[1px] border-gray-200 p-5 rounded-xl shadow-lg text-center md:text-left">
@@ -88,12 +86,11 @@ const BullzpotDifference = () => {
             <img src={cardIcon6} alt="" />
           </div>
           <h1 className="text-3xl font-bold color-primary mt-5  mb-4">
-            No Selling Policy
+           We do it for excellence
           </h1>
-          <p className="text-[22px] font-medium color-primary">
-            We will never try to sell you or push you towards a given solution.
-            We want you to make the right choice for your business, not our bank
-            account. Even if that means you working with someone else.
+          <p className="text-[22px] font-medium color-primary"> 
+          We refrain from any upselling tactics or steering you towards specific solutions for our gain. 
+          Your 100% approval and satisfaction are our utmost priority.
           </p>
         </div>
       </div>

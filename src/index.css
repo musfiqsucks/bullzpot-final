@@ -28,7 +28,7 @@ ul {
   font-family: "Sora", sans-serif;
 }
 .color-primary {
-  color: #252160;
+  color: #000000;
 }
 .color-secondary {
   color: #f1a244;
@@ -37,11 +37,54 @@ ul {
   color: white;
 }
 .bg-orange {
-  background-color: #f1a244;
+  background-color: #69ba2c;
 }
+
+.bg-orange:hover{
+  background-color: #bb5729;
+}
+
 .bg-primary {
   background-color: #f9f9fd;
 }
 .bg-secondary {
-  background-color: #322d7f;
+  background-color: #052a3d;
+}
+
+.mainlogo {
+    height: 6.3rem;
+}
+
+.footerlogo {
+  height: 9.7rem;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 640px){
+  .footerlogo{
+    height: 5.5rem;
+}
+}
+
+@media (max-width: 640px){
+  .mainlogo {
+    height: 4.5rem;
+}
+}
+
+ .custom-paragraph{
+  background-image: linear-gradient(90deg,#e9f9f4,#cfebfe 45.31%,#f2eefe);
+  width: 85%;
+} 
+
+@media (max-width: 640px){
+  .custom-paragraph{   
+    width: 100%;
+  } 
+}
+
+.about-logo{
+  max-width: 70%;
+  height: auto;
 }

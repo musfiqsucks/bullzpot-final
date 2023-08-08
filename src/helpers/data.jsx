@@ -1,44 +1,29 @@
 export const faqData = [
   {
-    question: "What platforms do you work with?",
+    question: "What platforms/tech stacks do you work with?",
     answer:
-      "We work exclusively on Shopify and Shopify Plus. We believe they are the best eCommerce platforms on the market and our developers are experts on them.",
+      "We build modern optimized website with Shopify, Shopify Plus, WordPress, JavaScript, React, NextJS, Laravel etc. We believe these the best platforms/techstacks on the market and our developers are experts on them.",
   },
   {
-    question: "What types of tasks do you accept?",
+    question: "What types of services do you offer?",
     answer:
-      "We work exclusively on Shopify and Shopify Plus. We believe they are the best eCommerce platforms on the market and our developers are experts on them.",
+      "Web designing, developmet, eCommerce management, consultation, SEO, app development, UI/UX designing, graphics designing, digital marketing and AI powered web solutions",
   },
   {
     question: "How many active task requests can I have at a time?",
     answer:
-      "We work exclusively on Shopify and Shopify Plus. We believe they are the best eCommerce platforms on the market and our developers are experts on them.",
-  },
-  {
-    question: "What is considered a task?",
-    answer:
-      "We work exclusively on Shopify and Shopify Plus. We believe they are the best eCommerce platforms on the market and our developers are experts on them.",
+      "Unlimited task requests, Our project manager will discuss the requirements with you and confirm on the deadline according to your needs.",
   },
   {
     question: "How long will it take to complete my task request?",
     answer:
-      "We work exclusively on Shopify and Shopify Plus. We believe they are the best eCommerce platforms on the market and our developers are experts on them.",
+      "It depends on the task request. A regular eCommerce website can take upto 1-3 weeks to be delivered. The timeline really depends on the customized functionalities and requirements.",
   },
   {
     question:
       "How long do I have to request revisions? How many revisions can I request?",
     answer:
-      "We work exclusively on Shopify and Shopify Plus. We believe they are the best eCommerce platforms on the market and our developers are experts on them.",
-  },
-  {
-    question: "When is payment due?",
-    answer:
-      "We work exclusively on Shopify and Shopify Plus. We believe they are the best eCommerce platforms on the market and our developers are experts on them.",
-  },
-  {
-    question: "What is considered a task?",
-    answer:
-      "We work exclusively on Shopify and Shopify Plus. We believe they are the best eCommerce platforms on the market and our developers are experts on them.",
+      "That's the best part. You have unlimited revision requests. We will keep working on it until you are fully satisfied with your website/app",
   },
 ];
 

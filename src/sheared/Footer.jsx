@@ -15,7 +15,14 @@ const Footer = () => {
         <div className="bg-[#FDF6E7]">
           <div className="max-w-screen-xl py-8 w-10/12 mx-auto">
             <div className="text-center">
-              <h2 className="text-xl font-bold color-primary">Bullzpot.com</h2>
+            <Link to="/">
+               <img
+                className="footerlogo"
+                src="https://i.ibb.co/mCXD87N/bullzpot-logo-footer.png"
+                alt=""
+              /> 
+           
+            </Link>
             </div>
             <div className="h-[1px] w-full bg-[#E7E0D9] my-14"></div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -90,7 +97,7 @@ const Footer = () => {
               </div>
               <div className="flex justify-center items-center text-center">
                 <div className="">
-                  <p className="text-xl font-medium ">Clean Size Charts</p>
+                  <p className="text-xl font-medium ">Mighty Web Services</p>
                   <p className="text-base mt-2 font-normal hidden md:block">
                     &copy; {year} Bullzpot, All rights reserved.
                   </p>
