@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { faqData } from "../../helpers/data";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -14,19 +14,18 @@ const Faq = () => {
     <div className="max-w-screen-xl py-8 md:py-16 w-10/12 mx-auto">
       <div className="flex flex-col md:flex-row gap-10">
         <div className="md:w-[40%]">
-          <h1 className="text-[40px] font-bold color-primary">
-           FAQ
-          </h1>
+          <h1 className="text-[40px] font-bold color-primary">FAQ</h1>
           <p className="text-xl font-medium color-primary my-6">
-          We've curated a set of FAQ questions to quench your curiosity. Armed with this knowledge, make a choice that resonates with confidence.
-         <strong> Still questions? </strong>
+            We&#39;ve curated a set of FAQ questions to quench your curiosity.
+            Armed with this knowledge, make a choice that resonates with
+            confidence.
+            <strong> Still questions? </strong>
           </p>
           <Link to="mailto:bullzpot@gmail.com">
-    <button className="bg-orange hover:bg-orange-400 duration-300 ease-in-out  py-3 w-full font-semibold my-4 md:my-8 rounded-md color-white px-6 flex justify-center items-center">
-       Write to Us
-    </button>
-</Link>
-          
+            <button className="bg-orange hover:bg-orange-400 duration-300 ease-in-out  py-3 w-full font-semibold my-4 md:my-8 rounded-md color-white px-6 flex justify-center items-center">
+              Write to Us
+            </button>
+          </Link>
         </div>
         <div className="faq-accordion md:w-[60%]">
           {faqData?.map((item, index) => (

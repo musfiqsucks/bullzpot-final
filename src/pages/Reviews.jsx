@@ -1,5 +1,5 @@
 import Banner from "../components/UI/Banner";
-import ReviewsBannerImage from "../assets/review-page-banner-image.webp";
+import ReviewsBannerImage from "../assets/REVIEW.png";
 import Wave from "../components/Wave";
 import CompanyOverview from "../components/UI/CompanyOverview";
 import LoveTrustSection from "../components/UI/LoveTrustSection";

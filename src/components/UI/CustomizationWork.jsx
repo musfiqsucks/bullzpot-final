@@ -17,7 +17,7 @@ const CustomizationWork = () => {
               How to Start!
             </h2>
             <p className="font-medium text-2xl leading-[36px] mt-5 color-white">
-            High Quality Projects Get Done, Super-Easy & Fast!
+              High Quality Projects Get Done, Super-Easy & Fast!
             </p>
           </div>
           <div className="relative">
@@ -31,7 +31,8 @@ const CustomizationWork = () => {
                     Brief us about your project
                   </h2>
                   <p className="text-base color-white mt-2 w-2/3 mx-auto">
-                    Let us know about your website project requirements - any customization request.
+                    Let us know about your website project requirements - any
+                    customization request.
                   </p>
                 </div>
               </div>
@@ -44,7 +45,8 @@ const CustomizationWork = () => {
                     Confirm the quotation
                   </h2>
                   <p className="text-base color-white mt-2 w-2/3 mx-auto">
-                  We'll swiftly provide a customized quote. Once you approve, let us take care of the rest!
+                    We&#39;ll swiftly provide a customized quote. Once you
+                    approve, let us take care of the rest!
                   </p>
                 </div>
               </div>
@@ -55,8 +57,8 @@ const CustomizationWork = () => {
                 <div className="mt-6">
                   <h2 className="text-xl font-bold color-white">Get it Done</h2>
                   <p className="text-base color-white mt-2 w-2/3 mx-auto">
-                    Boom ... your high converting web or app customization will be done
-                    - on time.
+                    Boom ... your high converting web or app customization will
+                    be done - on time.
                   </p>
                 </div>
               </div>

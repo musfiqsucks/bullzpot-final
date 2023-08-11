@@ -13,8 +13,9 @@ const AboutTimeline = () => {
         </div>
         <h2 className="text-2xl font-bold color-primary my-5">Starting time</h2>
         <p className="text-lg font-medium color-primary w-full md:w-2/3 m-auto">
-        We've curated a set of FAQ questions to quench your curiosity. 
-        Armed with this knowledge, make a choice that resonates with confidence.
+          We&#39;ve curated a set of FAQ questions to quench your curiosity.
+          Armed with this knowledge, make a choice that resonates with
+          confidence.
         </p>
       </div>
       {/* timelineStart */}
@@ -29,10 +30,13 @@ const AboutTimeline = () => {
             <h1 className="mx-auto text-white font-semibold text-lg">1</h1>
           </div>
           <div className="order-1 bg-secondary rounded-lg shadow-xl w-5/12 px-6 py-6 text-right">
-            <h3 className="mb-3 font-bold text-white text-2xl">First Few Days</h3>
+            <h3 className="mb-3 font-bold text-white text-2xl">
+              First Few Days
+            </h3>
             <p className="text-lg font-medium leading-snug tracking-wide text-white text-opacity-80">
-            We've curated a set of FAQ questions to quench your curiosity. 
-        At this point, be assured that our team will take care of your requirements as quick as possible.
+              We&#39;ve curated a set of FAQ questions to quench your curiosity.
+              At this point, be assured that our team will take care of your
+              requirements as quick as possible.
             </p>
           </div>
         </div>
@@ -43,9 +47,12 @@ const AboutTimeline = () => {
             <h1 className="mx-auto font-semibold text-lg text-white">2</h1>
           </div>
           <div className="order-1 bg-secondary rounded-lg shadow-xl w-5/12 px-6 py-6">
-            <h3 className="mb-3 font-bold text-white text-2xl">Growing with Bullzpot</h3>
+            <h3 className="mb-3 font-bold text-white text-2xl">
+              Growing with Bullzpot
+            </h3>
             <p className="text-lg leading-snug tracking-wide text-white text-opacity-80">
-           Experience the transformation of your online store as conversions soar!
+              Experience the transformation of your online store as conversions
+              soar!
             </p>
           </div>
         </div>
@@ -53,7 +60,8 @@ const AboutTimeline = () => {
       <div className="text-center hidden md:block">
         <h2 className="text-2xl font-bold color-primary my-4 ">Now</h2>
         <p className="text-lg w-2/3 m-auto font-medium leading-snug tracking-wide text-primary text-opacity-80">
-          Thank you for trusting us! You've now witnessed one of the best business decisions you've made this year.
+          Thank you for trusting us! You&#39;ve now witnessed one of the best
+          business decisions you&#39;ve made this year.
         </p>
       </div>
       {/* timelineEnd */}
