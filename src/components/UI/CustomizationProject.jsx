@@ -1,10 +1,10 @@
-import projectIcon1 from "../../assets/cards_icons_3_small.webp";
-import projectIcon2 from "../../assets/cards_icons_small.png";
-import projectIcon3 from "../../assets/cards_icons_7_small.webp";
-import projectIcon4 from "../../assets/cards_icons_4_3ca5f381-bd9c-4473-9019-b9a85aefb304_small.png";
-import projectIcon5 from "../../assets/cards_icons_6_small.webp";
-import projectIcon6 from "../../assets/cards_icons_4_small.webp";
-import projectIcon7 from "../../assets/cards_icons_10_small.png";
+import projectIcon1 from "../../assets/icons8-change-theme-96.png";
+import projectIcon2 from "../../assets/icons8-specification-of-the-engineering-material-with-estimate-cost-48.png";
+import projectIcon3 from "../../assets/icons8-new-copy-48.png";
+import projectIcon4 from "../../assets/icons8-update-48.png";
+import projectIcon5 from "../../assets/icons8-increase-48.png";
+import projectIcon6 from "../../assets/icons8-rocket-96.png";
+import projectIcon7 from "../../assets/icons8-message-48.png";
 import { BiSolidChevronRight } from "react-icons/bi";
 import MainButton from "../MainButton";
 import { Link } from "react-router-dom";
@@ -26,7 +26,7 @@ const CustomizationProject = () => {
           <div>
             <img src={projectIcon1} alt="" />
           </div>
-          <h1 className="text-2xl font-bold color-primary mt-5 md:mt-[90px] mb-4">
+          <h1 className="text-2xl font-bold color-primary mt-5 md:mt-[35px] mb-4">
             Any Theme Customizations!
           </h1>
           <p className="text-xl font-medium color-primary">
@@ -137,7 +137,7 @@ const CustomizationProject = () => {
           <div>
             <img src={projectIcon6} alt="" />
           </div>
-          <h1 className="text-2xl font-bold color-primary mt-5 md:mt-[110px] mb-4">
+          <h1 className="text-2xl font-bold color-primary mt-5 md:mt-[60px] mb-4">
             Is slow page speed troubling you?
           </h1>
           <p className="text-xl font-medium color-primary">
@@ -165,7 +165,7 @@ const CustomizationProject = () => {
         <div className="flex justify-center">
           <img src={projectIcon7} alt="" />
         </div>
-        <h1 className="text-2xl font-bold color-primary mt-5 md:mt-10 mb-4">
+        <h1 className="text-2xl font-bold color-primary mt-5 md:mt-6 mb-4">
           And much more!
         </h1>
         <p className="text-base color-primary md:w-2/5 m-auto">
