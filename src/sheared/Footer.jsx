@@ -15,14 +15,13 @@ const Footer = () => {
         <div className="bg-[#FDF6E7]">
           <div className="max-w-screen-xl py-8 w-10/12 mx-auto">
             <div className="text-center">
-            <Link to="/">
-               <img
-                className="footerlogo"
-                src="https://i.ibb.co/mCXD87N/bullzpot-logo-footer.png"
-                alt=""
-              /> 
-           
-            </Link>
+              <Link to="/">
+                <img
+                  className="footerlogo"
+                  src="https://i.ibb.co/mCXD87N/bullzpot-logo-footer.png"
+                  alt=""
+                />
+              </Link>
             </div>
             <div className="h-[1px] w-full bg-[#E7E0D9] my-14"></div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -48,7 +47,7 @@ const Footer = () => {
                       <span>Pricing</span>
                     </Link>
                     <Link
-                      to="/support"
+                      to="mailto:bullzpot@gmail.com"
                       className="text-lg font-medium hover:underline"
                     >
                       <span>Support</span>

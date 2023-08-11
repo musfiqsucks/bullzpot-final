@@ -1,9 +1,9 @@
-import cardIcon1 from "../../assets/cards_icons.png";
-import cardIcon2 from "../../assets/cards_icons_1.webp";
-import cardIcon3 from "../../assets/cards_icons_3.webp";
-import cardIcon4 from "../../assets/cards_icons_8.png";
+import cardIcon1 from "../../assets/icons8-cursor-64.png";
+import cardIcon2 from "../../assets/icons8-infinity-64.png";
+import cardIcon3 from "../../assets/icons8-cool-64.png";
+import cardIcon4 from "../../assets/icons8-one-to-one-64.png";
 import cardIcon5 from "../../assets/cards_icons_9.webp";
-import cardIcon6 from "../../assets/cards_icons_5.png";
+import cardIcon6 from "../../assets/icons8-best-64.png";
 const BullzpotDifference = () => {
   return (
     <div className="max-w-screen-xl py-8 w-10/12 mx-auto">

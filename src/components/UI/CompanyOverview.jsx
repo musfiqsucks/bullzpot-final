@@ -41,7 +41,7 @@ const CompanyOverview = () => {
                   </h2>
                 </div>
                 <p className="text-base color-primary font-medium mt-1">
-                In-house expert team dedicated to serving your specific needs.
+                  In-house expert team dedicated to serving your specific needs.
                 </p>
               </div>
             </div>
@@ -54,10 +54,12 @@ const CompanyOverview = () => {
               <div className="h-[80px] w-[2px] bg-orange hidden md:block"></div>
               <div className="md:ml-4 text-center md:text-left">
                 <div className=" ">
-                  <h2 className="text-2xl color-primary font-bold ">100+ Projects</h2>
+                  <h2 className="text-2xl color-primary font-bold ">
+                    100+ Projects
+                  </h2>
                 </div>
                 <p className="text-base color-primary font-medium mt-1">
-                 web and app projects completed with various businesses
+                  web and app projects completed with various businesses
                 </p>
               </div>
             </div>
@@ -73,7 +75,7 @@ const CompanyOverview = () => {
                   </h2>
                 </div>
                 <p className="text-base color-primary font-medium mt-1">
-                Top agency quality at freelance rates
+                  Top agency quality at freelance rates
                 </p>
               </div>
             </div>
