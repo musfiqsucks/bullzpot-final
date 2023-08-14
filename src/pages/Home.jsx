@@ -1,5 +1,5 @@
 import Banner from "../components/UI/Banner";
-import BannerImage from "../assets/homepage1.png";
+import BannerImage from "../assets/homepage-trans.png";
 import Wave from "../components/Wave";
 import CustomizationWork from "../components/UI/CustomizationWork";
 import Partners from "../components/UI/Partners";
