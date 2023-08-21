@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="relative bg-[#ECF4FF]">
+      <nav className="relative bg-primary">
         <div className="container max-w-screen-xl w-10/12 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
             <Link to="/">

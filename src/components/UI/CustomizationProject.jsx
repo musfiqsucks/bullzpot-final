@@ -1,10 +1,10 @@
-import projectIcon1 from "../../assets/icons8-change-theme-96.png";
-import projectIcon2 from "../../assets/icons8-specification-of-the-engineering-material-with-estimate-cost-48.png";
-import projectIcon3 from "../../assets/icons8-new-copy-48.png";
-import projectIcon4 from "../../assets/icons8-update-48.png";
-import projectIcon5 from "../../assets/icons8-increase-48.png";
-import projectIcon6 from "../../assets/icons8-rocket-96.png";
-import projectIcon7 from "../../assets/icons8-message-48.png";
+import projectIcon1 from "../../assets/projectIcon1.png";
+import projectIcon2 from "../../assets/projectIcon2.png";
+import projectIcon3 from "../../assets/projectIcon3.png";
+import projectIcon4 from "../../assets/projectIcon4.png";
+import projectIcon5 from "../../assets/projectIcon5.png";
+import projectIcon6 from "../../assets/projectIcon6.png";
+import projectIcon7 from "../../assets/projectIcon7.png";
 import { BiSolidChevronRight } from "react-icons/bi";
 import MainButton from "../MainButton";
 import { Link } from "react-router-dom";

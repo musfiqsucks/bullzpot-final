@@ -65,7 +65,7 @@ const AboutTimeline = () => {
         </p>
       </div>
       {/* timelineEnd */}
-      {/* for mobile view code start  */}
+      {/* timeline for mobile view code start  */}
       <div className="block md:hidden">
         {mobileTimelineData?.map((data, index) => (
           <div
@@ -83,7 +83,7 @@ const AboutTimeline = () => {
           </div>
         ))}
       </div>
-      {/* for mobile view code end */}
+      {/*timeline for mobile view code end */}
     </div>
   );
 };

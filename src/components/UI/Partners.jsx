@@ -1,7 +1,7 @@
 import PartnersSlider from "./PartnersSlider";
 const Partners = () => {
   return (
-    <div className="bg-[#ECF4FF]">
+    <div className="bg-primary">
       <div className="max-w-screen-xl w-10/12 mx-auto">
         <div className="text-center mb-8 pt-4 flex justify-between items-center">
           <div className="h-[2px] w-[35%] bg-[#DFDFDF]"></div>

@@ -10,14 +10,14 @@ const About = () => {
   return (
     <>
       <Banner
-    title="About Us"
-    paragraph="Bullzpot, based in Estonia, offers premier on-demand web and app design
-     and development services tailored for e-commerce merchants. 
-     Our dedication is to provide unparalleled service to our clients."
-    images={AboutBannerImage}
-    imgClass="about-logo"
-    buttonState={false}
-></Banner>
+        title="About Us"
+        paragraph="Bullzpot, based in Estonia, offers premier on-demand web and app design
+        and development services tailored for e-commerce merchants. 
+        Our dedication is to provide unparalleled service to our clients."
+        images={AboutBannerImage}
+        imgClass="about-logo"
+        buttonState={false}
+      ></Banner>
       <Wave></Wave>
       <BullzpotDifference></BullzpotDifference>
       <AboutTimeline></AboutTimeline>

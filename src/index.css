@@ -36,23 +36,25 @@ ul {
 .color-white {
   color: white;
 }
-.bg-orange {
+.bg-tertiary {
   background-color: #69ba2c;
 }
 
-.bg-orange:hover{
+.bg-tertiary:hover {
   background-color: #bb5729;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bg-primary {
-  background-color: #f9f9fd;
+  background-color: #ecf4ff;
 }
 .bg-secondary {
   background-color: #052a3d;
 }
 
 .mainlogo {
-    height: 6.3rem;
+  height: 6.3rem;
 }
 
 .footerlogo {
@@ -61,30 +63,30 @@ ul {
   margin: auto;
 }
 
-@media (max-width: 640px){
-  .footerlogo{
+@media (max-width: 640px) {
+  .footerlogo {
     height: 5.5rem;
-}
+  }
 }
 
-@media (max-width: 640px){
+@media (max-width: 640px) {
   .mainlogo {
     height: 4.5rem;
-}
+  }
 }
 
- .custom-paragraph{
-  background-image: linear-gradient(90deg,#e9f9f4,#cfebfe 45.31%,#f2eefe);
+.custom-paragraph {
+  background-image: linear-gradient(90deg, #e9f9f4, #cfebfe 45.31%, #f2eefe);
   width: 85%;
-} 
-
-@media (max-width: 640px){
-  .custom-paragraph{   
-    width: 100%;
-  } 
 }
 
-.about-logo{
+@media (max-width: 640px) {
+  .custom-paragraph {
+    width: 100%;
+  }
+}
+
+.about-logo {
   max-width: 70%;
   height: auto;
 }

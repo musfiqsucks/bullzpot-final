@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import GuaranteedIcon from "../../assets/guaranted_icon.webp";
 const PriceCard = () => {
   return (
-    <div className="bg-[#ECF4FF]">
+    <div className="bg-primary">
       <div className="max-w-screen-xl w-10/12 mx-auto ">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 bg-white border-solid border-[1px] border-gray-200 shadow-lg h-96 px-16 py-10">
@@ -12,7 +12,7 @@ const PriceCard = () => {
                 <TiTick size={12}></TiTick>
               </div>
               <span className="text-xl color-primary ml-2">
-                Any customisation request
+                Any customization request
               </span>
             </div>
             <div className="flex items-center mb-3">
@@ -60,7 +60,7 @@ const PriceCard = () => {
             <h2 className="text-2xl font-bold color-white">Starting from</h2>
             <h1 className="text-[40px] font-bold color-white">$99 -</h1>
             <Link to="mailto:bullzpot@gmail.com">
-              <button className="bg-orange hover:bg-orange-400 duration-300 ease-in-out  py-3 w-full font-semibold my-4 md:my-8 rounded-md color-white px-6 flex justify-center items-center">
+              <button className="bg-tertiary hover:bg-orange-400 duration-300 ease-in-out  py-3 w-full font-semibold my-4 md:my-8 rounded-md color-white px-6 flex justify-center items-center">
                 Get a Free Quote
               </button>
             </Link>
@@ -77,8 +77,8 @@ const PriceCard = () => {
                 </h2>
                 <p className="text-base w-[95%]">
                   Your satisfaction fuels our commitment! If our service
-                  doesn&#39;t meet your expectations, we&#39;ll go the extra
-                  mile to meet your deamands.
+                  does&#39;t meet your expectations, we&#39;ll go the extra mile
+                  to meet your demands.
                 </p>
               </div>
             </div>
