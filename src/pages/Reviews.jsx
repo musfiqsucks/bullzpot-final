@@ -8,12 +8,8 @@ const Reviews = () => {
   return (
     <>
       <Banner
-        title="What people
-      are saying"
-        paragraph="We love our customers. Read what they
-      have to say about the experience working
-      with Bullzpot for their Shopify website
-      development needs."
+        title="What people are saying"
+        paragraph="We love our customers. Read what they have to say about the experience working with Bullzpot for their Shopify website development needs."
         images={ReviewsBannerImage}
         buttonState={false}
       ></Banner>

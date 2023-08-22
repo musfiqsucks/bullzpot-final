@@ -1,4 +1,5 @@
 import shopifyIcon from "../../assets/Shopify-Logo-icon.webp";
+
 const CompanyOverview = () => {
   return (
     <div className="max-w-screen-xl w-10/12 my-12 md:my-20 mx-auto">
@@ -14,7 +15,7 @@ const CompanyOverview = () => {
         <div>
           <div>
             <div className="md:flex ">
-              <div className="h-[80px] w-[2px] bg-orange hidden md:block"></div>
+              <div className="h-[80px] w-[2px] bg-tertiary hidden md:block"></div>
               <div className="md:ml-4 text-center md:text-left">
                 <div className="flex justify-center items-center">
                   <div className="h-6 w-6">
@@ -29,11 +30,11 @@ const CompanyOverview = () => {
                 </p>
               </div>
             </div>
-            <div className="h-[2px] w-full bg-orange block md:hidden mt-4"></div>
+            <div className="h-[2px] w-full bg-tertiary block md:hidden mt-4"></div>
           </div>
           <div>
             <div className="md:flex mt-10">
-              <div className="h-[80px] w-[2px] bg-orange hidden md:block"></div>
+              <div className="h-[80px] w-[2px] bg-tertiary hidden md:block"></div>
               <div className="md:ml-4 text-center md:text-left">
                 <div className="">
                   <h2 className="text-2xl color-primary font-bold">
@@ -45,13 +46,13 @@ const CompanyOverview = () => {
                 </p>
               </div>
             </div>
-            <div className="h-[2px] w-full bg-orange block md:hidden mt-4"></div>
+            <div className="h-[2px] w-full bg-tertiary block md:hidden mt-4"></div>
           </div>
         </div>
         <div>
           <div>
             <div className="md:flex mt-5 md:mt-0 text-center">
-              <div className="h-[80px] w-[2px] bg-orange hidden md:block"></div>
+              <div className="h-[80px] w-[2px] bg-tertiary hidden md:block"></div>
               <div className="md:ml-4 text-center md:text-left">
                 <div className=" ">
                   <h2 className="text-2xl color-primary font-bold ">
@@ -63,11 +64,11 @@ const CompanyOverview = () => {
                 </p>
               </div>
             </div>
-            <div className="h-[2px] w-full bg-orange block md:hidden mt-4"></div>
+            <div className="h-[2px] w-full bg-tertiary block md:hidden mt-4"></div>
           </div>
           <div>
             <div className="md:flex mt-10">
-              <div className="h-[80px] w-[2px] bg-orange hidden md:block"></div>
+              <div className="h-[80px] w-[2px] bg-tertiary hidden md:block"></div>
               <div className="md:ml-4 text-center md:text-left">
                 <div className="">
                   <h2 className="text-2xl color-primary font-bold">
@@ -79,7 +80,7 @@ const CompanyOverview = () => {
                 </p>
               </div>
             </div>
-            <div className="h-[2px] w-full bg-orange block md:hidden mt-4"></div>
+            <div className="h-[2px] w-full bg-tertiary block md:hidden mt-4"></div>
           </div>
         </div>
       </div>

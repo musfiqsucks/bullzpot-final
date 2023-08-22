@@ -2,7 +2,7 @@ import MainButton from "../MainButton";
 import PropTypes from "prop-types";
 const Banner = ({ title, paragraph, images, buttonState }) => {
   return (
-    <div className="bg-[#ECF4FF] py-5 md:py-10">
+    <div className="bg-primary py-5 md:py-10">
       <div className="max-w-screen-xl w-10/12 mx-auto">
         <div className="flex flex-col-reverse md:flex-row justify-between items-center">
           <div className="w-full md:w-1/2">
@@ -22,7 +22,7 @@ const Banner = ({ title, paragraph, images, buttonState }) => {
           </div>
           <div className="w-full md:w-1/2">
             <div className="flex justify-center items-center">
-              <img src={images} alt="" />
+              <img src={images} alt="bannerImage" />
             </div>
           </div>
         </div>

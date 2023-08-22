@@ -1,11 +1,11 @@
 import CustomizationWorksImage1 from "../../assets/how-customization-work.png";
 import CustomizationWorksImage2 from "../../assets/how-customization-work_1.png";
 import CustomizationWorksImage3 from "../../assets/how-customization-work_2.png";
-import arrow1 from "../../assets/Vector_1_1.webp";
-import arrow2 from "../../assets/Vector_1_1564a9b6-becd-454f-bd47-d1d502613c92.webp";
+import arrow1 from "../../assets/arrow1.webp";
+import arrow2 from "../../assets/arrow2.webp";
 import CustomizationWorkWave from "../CustomizationWorkWave";
-
 import MainButton from "../MainButton";
+
 const CustomizationWork = () => {
   return (
     <>

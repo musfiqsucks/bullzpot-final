@@ -1,4 +1,4 @@
-import Faq from "../components/UI/FAQ";
+import Faq from "../components/UI/Faq";
 import LoveTrustSection from "../components/UI/LoveTrustSection";
 import Price from "../components/UI/Price";
 import PriceCard from "../components/UI/PriceCard";

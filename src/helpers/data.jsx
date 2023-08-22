@@ -29,20 +29,20 @@ export const faqData = [
 
 export const mobileTimelineData = [
   {
-    title: "Early days",
+    title: "First Few Days",
     description:
-      "We want you to be fully informed when you choose TaskHusky as your Shopify & Shopify Plus development team. We&#39;ve compiled a list of frequently asked questions to help make your decision easier.",
+      "We've curated a set of FAQ questions to quench your curiosity. At this point, be assured that our team will take care of your requirements as quick as possible.",
   },
   {
-    title: "Grow",
+    title: "Growing with Bullzpot",
     description:
-      "We want you to be fully informed when you choose TaskHusky as your Shopify & Shopify Plus development team. We&#39;ve compiled a list of frequently asked questions to help make your decision easier.",
+      "Experience the transformation of your online store as conversions soar!",
     marginTop: "mt-5",
   },
   {
     title: "Now",
     description:
-      "We want you to be fully informed when you choose TaskHusky as your Shopify & Shopify Plus development team. We&#39;ve compiled a list of frequently asked questions to help make your decision easier.",
+      "Thank you for trusting us! You've now witnessed one of the best business decisions you've made this year.",
     marginTop: "mt-5",
   },
 ];

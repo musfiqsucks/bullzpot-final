@@ -22,7 +22,7 @@ const Faq = () => {
             <strong> Still questions? </strong>
           </p>
           <Link to="mailto:bullzpot@gmail.com">
-            <button className="bg-orange hover:bg-orange-400 duration-300 ease-in-out  py-3 w-full font-semibold my-4 md:my-8 rounded-md color-white px-6 flex justify-center items-center">
+            <button className="bg-tertiary hover:bg-orange-400 duration-300 ease-in-out  py-3 w-full font-semibold my-4 md:my-8 rounded-md color-white px-6 flex justify-center items-center">
               Write to Us
             </button>
           </Link>

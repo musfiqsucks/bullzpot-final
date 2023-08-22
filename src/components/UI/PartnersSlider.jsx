@@ -10,7 +10,6 @@ import partners5 from "../../assets/partners/5.png";
 import partners6 from "../../assets/partners/6.png";
 import partners8 from "../../assets/partners/7.png";
 
-
 const PartnersSlider = () => {
   let settings = {
     dots: false,
